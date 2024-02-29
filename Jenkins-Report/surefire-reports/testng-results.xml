@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T22:19:42 IST" name="Suite" finished-at="2024-02-27T22:37:35 IST" duration-ms="1072462">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-27T22:19:42 IST" name="EdgeTest" finished-at="2024-02-27T22:37:35 IST" duration-ms="1072462">
+      <class name="com.Identify_NewBikes.StepRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:19:42 IST" name="setUpClass" finished-at="2024-02-27T22:19:45 IST" duration-ms="2487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5620a340]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:19:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:20:20 IST" duration-ms="35041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bike E2E testing suite in the zig wheels website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:20:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:30:19 IST" duration-ms="599026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["For Used cars in Chennai, extract all the popular models in a List; Display the same"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bike E2E testing suite in the zig wheels website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:30:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:30:48 IST" duration-ms="28736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Try to 'Login' with google, give invalid account details & capture the error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bike E2E testing suite in the zig wheels website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:30:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:31:20 IST" duration-ms="32111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:31:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:31:53 IST" duration-ms="33089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the forums in the zig wheels website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:31:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:32:17 IST" duration-ms="24046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:32:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:32:41 IST" duration-ms="23623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:32:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:33:03 IST" duration-ms="22725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:33:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:33:26 IST" duration-ms="22365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:33:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:33:53 IST" duration-ms="27330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:33:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:34:23 IST" duration-ms="29544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:34:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:34:49 IST" duration-ms="26482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:34:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:35:12 IST" duration-ms="22909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:35:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:35:35 IST" duration-ms="23289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes and cars Regression TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:35:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:35:54 IST" duration-ms="19236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering mouse on the new Bikes dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes Smoke TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:35:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:36:19 IST" duration-ms="24248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Selecting the "upcoming" options from new bikes drop down"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes Smoke TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:36:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:36:40 IST" duration-ms="20934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering on used cars"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes Smoke TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:36:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T22:37:09 IST" duration-ms="29132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Try to 'Login' with google, give invalid account details & capture the error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Identify New Bikes Smoke TestSuite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Identify_NewBikes.StepRunner.TestRunner@5a59ca5e]" started-at="2024-02-27T22:37:09 IST" name="tearDownClass" finished-at="2024-02-27T22:37:35 IST" duration-ms="25930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Identify_NewBikes.StepRunner.TestRunner -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

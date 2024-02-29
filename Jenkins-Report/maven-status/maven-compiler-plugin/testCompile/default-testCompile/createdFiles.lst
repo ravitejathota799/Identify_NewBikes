@@ -1,0 +1,5 @@
+com\Identify_NewBikes\StepDefinitions\NewBikesAndCars.class
+com\Identify_NewBikes\StepRunner\TestRunner.class
+com\Identify_NewBikes\PageObjects\Locators.class
+com\Identify_NewBikes\PageObjects\BasePage.class
+com\Identify_NewBikes\StepDefinitions\Hooks.class
