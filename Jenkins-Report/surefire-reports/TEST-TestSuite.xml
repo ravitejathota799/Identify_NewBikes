@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1074.766" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2303927\.jenkins\workspace\Identify_NewBikes\target\test-classes;C:\Users\2303927\.jenkins\workspace\Identify_NewBikes\target\classes;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2303927\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2303927\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2303927\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2303927\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2303927\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2303927\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2303927\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2303927\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\2303927\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\2303927\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2303927\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2303927\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2303927\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2303927\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2303927\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2303927\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2303927\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2303927\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2303927\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2303927\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2303927\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2303927\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2303927\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2303927\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2303927\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2303927\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\2303927\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2303927\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2303927\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2303927\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2303927\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2303927\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2303927\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2303927\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2303927\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\2303927\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\2303927\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\2303927\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2303927\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2303927\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2303927\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2303927\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2303927\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2303927\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2303927\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2303927\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2303927\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2303927\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2303927\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2303927\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2303927\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2303927\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2303927\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-junit4\2.25.0\allure-junit4-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-cucumber-jvm\2.20.1\allure-cucumber-jvm-2.20.1.jar;C:\Users\2303927\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\2303927\AppData\Local\Temp\1\surefire14979338875856568426\surefirebooter-20240227221938179_3.jar C:\Users\2303927\AppData\Local\Temp\1\surefire14979338875856568426 2024-02-27T22-19-37_189-jvmRun1 surefire-20240227221938179_1tmp surefire_0-20240227221938179_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2303927\.jenkins\workspace\Identify_NewBikes\target\test-classes;C:\Users\2303927\.jenkins\workspace\Identify_NewBikes\target\classes;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2303927\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2303927\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2303927\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2303927\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2303927\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2303927\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2303927\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2303927\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2303927\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\2303927\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\2303927\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2303927\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2303927\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2303927\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2303927\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2303927\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2303927\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2303927\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2303927\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2303927\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2303927\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2303927\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2303927\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2303927\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2303927\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2303927\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2303927\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2303927\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2303927\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\2303927\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2303927\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\2303927\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2303927\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2303927\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2303927\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2303927\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2303927\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2303927\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2303927\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2303927\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\2303927\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\2303927\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\2303927\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2303927\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2303927\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2303927\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2303927\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2303927\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2303927\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2303927\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2303927\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2303927\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2303927\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2303927\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2303927\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2303927\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2303927\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2303927\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2303927\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2303927\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\2303927\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-junit4\2.25.0\allure-junit4-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\2303927\.m2\repository\io\qameta\allure\allure-cucumber-jvm\2.20.1\allure-cucumber-jvm-2.20.1.jar;C:\Users\2303927\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2303927"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2303927\.jenkins\workspace\Identify_NewBikes"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\2303927\AppData\Local\Temp\1\surefire14979338875856568426\surefirebooter-20240227221938179_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
+    <property name="user.name" value="2303927"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\2303927\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2303927\AppData\Local\Temp\1\"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="user.dir" value="C:\Users\2303927\.jenkins\workspace\Identify_NewBikes"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.9.3/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.9.3\bin;C:\Program Files\Java\jdk-11\bin;C:\Users\2303927\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.20+9-LTS-256"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Display &quot;Upcoming&quot; bikes details like bike name, price and expected launch date in India, for manufacturer &apos;Honda&apos; &amp; Bike price should be less than 4Lac.&quot;, &quot;Identify New Bike E2E testing suite in the zig wheels website&quot;](1)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="35.047">
+    <system-out><![CDATA[
+@tag
+Scenario: Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.   # src/test/resources/Features/Identify_NewBikes_E2E.feature:4
+  Given user navigates to zig wheels website with url                                                                                                                 # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 1135553 bytes]
+
+--Hover on new bikes option--
+  When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products.                                               # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 1076485 bytes]
+
+--UpComing Bikes Option Selected--
+  Then From the new bikes area, the user selects the upcoming bikes option.                                                                                           # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_new_bikes_area_the_user_selects_the_upcoming_bikes_option()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 233657 bytes]
+
+--Manfacturer Name Selected--
+  And After receiving the result, the user selects Honda as the manufacturer name from the menu.                                                                      # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.after_receiving_the_result_the_user_selects_honda_as_the_manufacturer_name_from_the_menu()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 295902 bytes]
+
+Honda Activa Electric	Rs. 1.10 Lakh	Launch Date : Mar 2024	
+Honda Forza 350	Rs. 3.70 Lakh	Launch Date : Mar 2024	
+Honda CB350 Cruiser	Rs. 2.30 Lakh	Launch Date : Mar 2024	
+Honda Activa 7G	Rs. 79,000	Launch Date : Apr 2024	
+Honda PCX160	Rs. 1.20 Lakh	Launch Date : Jun 2024	
+Honda CBR150R	Rs. 1.70 Lakh	Launch Date : Unrevealed	
+--Data inserted Successfully--
+  And record the name, cost, and anticipated release date of each bike for the Indian market for the manufacturer Honda & A bike should cost no more than four lakhs. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.record_the_name_cost_and_anticipated_release_date_of_each_bike_for_the_indian_market_for_the_manufacturer_honda_a_bike_should_cost_no_more_than_four_lakhs()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 1109793 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Feb 27, 2024 10:19:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:19:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;For Used cars in Chennai, extract all the popular models in a List; Display the same&quot;, &quot;Identify New Bike E2E testing suite in the zig wheels website&quot;](2)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="599.05">
+    <system-out><![CDATA[
+@tag
+Scenario: For Used cars in Chennai, extract all the popular models in a List; Display the same  # src/test/resources/Features/Identify_NewBikes_E2E.feature:12
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section.              # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding For Used cars in Chennai, extract all the popular models in a List; Display the same [image/png 940681 bytes]
+
+--Clicked on Used Cars--
+  Then From the website new cars area, the user selects the options for used cars in Chennai.   # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_website_new_cars_area_the_user_selects_the_options_for_used_cars_in_chennai()
+
+    Embedding For Used cars in Chennai, extract all the popular models in a List; Display the same [image/png 641835 bytes]
+
+Maruti 800 Maruti 800 Std		Rs. 70,000	
+Maruti 800 Maruti 800 AC		Rs. 30,000	
+Maruti 800 Maruti 800 AC		Rs. 55,000	
+Maruti 800 Maruti 800 AC		Rs. 80,000	
+Maruti 800 Maruti 800 AC		Rs. 30,000	
+Maruti 800 Maruti 800 Std		Rs. 1.40 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire VXI 1.2	Kottivakkam	Rs. 6.10 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire ZXI 1.2	Ganapathipuram	Rs. 6.83 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT ZDI	Ganapathipuram	Rs. 7.62 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire VXI 1.2	Nandanam	Rs. 5.70 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire VXI 1.2	Thiruverkadu	Rs. 6.49 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire ZXI	Thiruverkadu	Rs. 5.60 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI	Meenambakkam	Rs. 5.75 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire LDI		Rs. 4.20 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT VXI	Thiruverkadu	Rs. 6.66 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT ZXI Plus	Ganapathipuram	Rs. 6.41 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VDI		Rs. 5.50 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire VXI 1.2	Meenambakkam	Rs. 5.70 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT ZXI Plus	Thiruverkadu	Rs. 7.16 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT VXI	Ganapathipuram	Rs. 5.89 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire LDI		Rs. 4.80 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI	Anna Nagar	Rs. 7.50 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI	MEENAMBAKKAM	Rs. 5.75 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire ZXI Plus AT BSVI	Ganapathipuram	Rs. 8.38 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT ZDI	Thiruverkadu	Rs. 6.74 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire ZXI AT BSVI	Ganapathipuram	Rs. 8.21 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI AT BSVI	Thiruverkadu	Rs. 7.41 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi	Nungambakkam	Rs. 3.10 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI		Rs. 5.25 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire ZDi	Kolathur	Rs. 3.65 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi	Meenambakkam	Rs. 3.75 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI	Nungambakkam	Rs. 3.50 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI BSVI		Rs. 7.10 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT ZDI		Rs. 7.50 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire VXI 1.2 BS IV	Thygaraya Nagar	Rs. 5.76 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire ZXI AT BSVI	Medavakkam	Rs. 8.25 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT VXI BS IV	Medavakkam	Rs. 7.45 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire ZXI Plus BSVI		Rs. 8.75 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire LDI		Rs. 3.18 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire ZXI AT BSVI		Rs. 7.30 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire ZXI Plus BSVI	Thiruverkadu	Rs. 7.65 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi		Rs. 3.55 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VDI	Thiruverkadu	Rs. 5.18 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi		Rs. 2.97 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire LXi	Ambattur	Rs. 4.95 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi	Ambattur	Rs. 3.10 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI	MEENAMBAKKAM	Rs. 2.45 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXi AT	Porur	Rs. 5.75 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT VXI	Ambattur	Rs. 5.50 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi	Kottivakkam	Rs. 3.60 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI	Anna Nagar	Rs. 5.80 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZDI	Anna Nagar	Rs. 7.00 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi	Thiruverkadu	Rs. 4.24 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire ZXi	Porur	Rs. 6.95 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI BSVI	Porur	Rs. 4.10 Lakh	
+Maruti Swift Dzire Tour 2012-2018 Maruti Swift Dzire LXI	MEENAMBAKKAM	Rs. 4.10 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VXI		Rs. 4.00 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire ZDI		Rs. 5.00 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire ZXI	Anna Nagar	Rs. 7.50 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT ZXI Plus		Rs. 6.50 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VXI		Rs. 3.50 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi		Rs. 3.50 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire ZXI 1.2 BS IV		Rs. 6.00 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT ZXI BS IV		Rs. 7.04 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi		Rs. 3.00 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi		Rs. 2.50 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VDI		Rs. 5.00 Lakh	
+Maruti Swift Dzire Tour 2012-2018 Maruti Swift Dzire S		Rs. 4.00 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire ZDI		Rs. 4.50 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire VXI 1.2		Rs. 6.20 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI BSVI		Rs. 7.00 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi		Rs. 3.50 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi		Rs. 3.50 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire LXi		Rs. 3.20 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire ZXI Plus		Rs. 6.00 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI		Rs. 4.50 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI		Rs. 5.00 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI AT		Rs. 8.25 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI		Rs. 4.50 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire LDI		Rs. 4.00 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VDI		Rs. 5.00 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI CNG BSVI		Rs. 7.66 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi		Rs. 4.00 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire LDI		Rs. 3.95 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire ZDI		Rs. 5.50 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI AT BSVI		Rs. 8.00 Lakh	
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire 1.2 Lxi BSIV		Rs. 3.50 Lakh	
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI Optional		Rs. 5.00 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT VDI		Rs. 6.00 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire ZDI Plus		Rs. 6.00 Lakh	
+Maruti Swift Dzire Maruti Swift Dzire VXI AT BSVI		Rs. 7.50 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire LXI		Rs. 4.50 Lakh	
+Maruti Dzire 2017-2020 Maruti Swift Dzire AMT VXI		Rs. 7.00 Lakh	
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VXi AT	Porur	Rs. 4.75 Lakh	
+Maruti Swift 2014-2021 Maruti Swift ZXI BSIV	Meenambakkam	Rs. 5.00 Lakh	
+Maruti Swift 2010-2014 Maruti Swift ZXI	Meenambakkam	Rs. 5.00 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI BSIV	Anna Nagar	Rs. 6.05 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 7.07 Lakh	
+Maruti Swift 2014-2021 Maruti Swift DDiS VDI	Kottivakkam	Rs. 5.95 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VVT ZXI	Nandanam	Rs. 6.10 Lakh	
+Maruti Swift 2018 Maruti Swift AMT VXI	Kottivakkam	Rs. 6.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift ZXI	Nungambakkam	Rs. 6.95 Lakh	
+Maruti Swift 2010-2014 Maruti Swift LDI	Nandanam	Rs. 3.40 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI BSIV		Rs. 4.99 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VXI	Anna Nagar	Rs. 7.25 Lakh	
+Maruti Swift 2014-2021 Maruti Swift ZXI	Anna Nagar	Rs. 6.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI Optional	Thiruverkadu	Rs. 5.04 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 3.99 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.37 Lakh	
+Maruti Swift Maruti Swift VXI	Ganapathipuram	Rs. 4.98 Lakh	
+Maruti Swift Maruti Swift ZXI Plus DT AMT BSVI	Ganapathipuram	Rs. 7.76 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI BSIV	Thiruverkadu	Rs. 4.51 Lakh	
+Maruti Swift 2014-2021 Maruti Swift AMT VXI	Kottivakkam	Rs. 6.50 Lakh	
+Maruti Swift 2018 Maruti Swift VXI	Anna Nagar	Rs. 4.80 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VXI	Porur	Rs. 4.60 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI	Kottivakkam	Rs. 3.30 Lakh	
+Maruti Swift 2014-2021 Maruti Swift LXI Option SP Limited Edition		Rs. 3.25 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI	Nandanam	Rs. 5.30 Lakh	
+Maruti Swift 2014-2021 Maruti Swift AMT VXI	Nandanam	Rs. 6.40 Lakh	
+Maruti Swift 2014-2021 Maruti Swift AMT VXI	Kottivakkam	Rs. 6.25 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.51 Lakh	
+Maruti Swift Maruti Swift ZXI Plus	Thiruverkadu	Rs. 6.67 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VVT VXI	Kottivakkam	Rs. 4.75 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VVT VXI	Nandanam	Rs. 6.20 Lakh	
+Maruti Swift Maruti Swift ZXI	Thiruverkadu	Rs. 4.83 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.57 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.79 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.28 Lakh	
+Maruti Swift Maruti Swift ZXI	Thiruverkadu	Rs. 4.43 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.22 Lakh	
+Maruti Swift 2014-2021 Maruti Swift AMT VXI	Meenambakkam	Rs. 6.25 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VXI	Anna Nagar	Rs. 3.85 Lakh	
+Maruti Swift Maruti Swift ZXI	Thiruverkadu	Rs. 5.12 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 3.84 Lakh	
+Maruti Swift Maruti Swift VXI	Ganapathipuram	Rs. 6.41 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.62 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 6.75 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 5.18 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VXI	Porur	Rs. 4.55 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.3 VXi	Thygaraya Nagar	Rs. 3.95 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI 2018		Rs. 5.60 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VXI	Meenambakkam	Rs. 3.75 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI Optional	Thiruverkadu	Rs. 5.26 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI BSIV	Thygaraya Nagar	Rs. 6.25 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.94 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI BSIV		Rs. 5.95 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI BSIV		Rs. 6.00 Lakh	
+Maruti Swift Maruti Swift VXI BSVI		Rs. 7.00 Lakh	
+Maruti Swift 2014-2021 Maruti Swift LXI		Rs. 6.15 Lakh	
+Maruti Swift Maruti Swift VXI AMT	Thiruverkadu	Rs. 7.85 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VXI		Rs. 4.60 Lakh	
+Maruti Swift 2010-2014 Maruti Swift RS VXI		Rs. 4.00 Lakh	
+Maruti Swift 2018 Maruti Swift VXI		Rs. 5.30 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.2 VXi BSII	Ambattur	Rs. 1.90 Lakh	
+Maruti Swift Maruti Swift VXI	Ganapathipuram	Rs. 7.02 Lakh	
+Maruti Swift 2004-2010 Maruti Swift VXI with ABS		Rs. 2.50 Lakh	
+Maruti Swift 2010-2014 Maruti Swift LXI	MEENAMBAKKAM	Rs. 4.75 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VXI	Anna Nagar	Rs. 4.95 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI		Rs. 6.60 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.3 VXI ABS		Rs. 2.50 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.3 VXI ABS		Rs. 2.75 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.65 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI	Ambattur	Rs. 5.25 Lakh	
+Maruti Swift 2014-2021 Maruti Swift LXI		Rs. 6.45 Lakh	
+Maruti Swift Maruti Swift VXI	Thiruverkadu	Rs. 4.24 Lakh	
+Maruti Swift Maruti Swift ZXI	Thiruverkadu	Rs. 4.79 Lakh	
+Maruti Swift 2014-2021 Maruti Swift ZXI Plus	Thygaraya Nagar	Rs. 8.25 Lakh	
+Maruti Swift 2011-2014 Maruti Swift VXI	Anna Nagar	Rs. 7.60 Lakh	
+Maruti Swift 2011-2014 Maruti Swift VXI	MEENAMBAKKAM	Rs. 4.75 Lakh	
+Maruti Swift 2011-2014 Maruti Swift ZDi	MEENAMBAKKAM	Rs. 4.55 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI Optional		Rs. 6.00 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.2 Ldi BSIII		Rs. 2.35 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI		Rs. 6.75 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI		Rs. 7.00 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.2 VDI BSII		Rs. 2.70 Lakh	
+Maruti Swift 2010-2014 Maruti Swift VDI		Rs. 3.50 Lakh	
+Maruti Swift 2010-2014 Maruti Swift ZXI		Rs. 3.25 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI Optional		Rs. 5.20 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI		Rs. 4.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI		Rs. 5.70 Lakh	
+Maruti Swift Maruti Swift VXI		Rs. 7.50 Lakh	
+Maruti Swift 2010-2014 Maruti Swift RS VDI		Rs. 4.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI		Rs. 3.85 Lakh	
+Maruti Swift 2018 Maruti Swift ZXI Plus		Rs. 6.50 Lakh	
+Maruti Swift 2010-2014 Maruti Swift ZDi		Rs. 5.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift AMT VDI		Rs. 6.00 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI		Rs. 5.80 Lakh	
+Maruti Swift 2014-2021 Maruti Swift LXI Option		Rs. 4.90 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI	Chromepet	Rs. 5.90 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.2 VDI BSII W ABS		Rs. 1.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI Optional	Ganapathipuram	Rs. 5.45 Lakh	
+Maruti Swift 2004-2010 Maruti Swift VXI BSII		Rs. 3.00 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VXI		Rs. 5.00 Lakh	
+Maruti Swift 2010-2014 Maruti Swift RS VXI		Rs. 4.80 Lakh	
+Maruti Swift 2014-2021 Maruti Swift ZXI		Rs. 6.90 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.2 VDI BSII		Rs. 4.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI		Rs. 6.00 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.2 VDI BSII		Rs. 2.00 Lakh	
+Maruti Swift Maruti Swift LXI BSVI		Rs. 5.50 Lakh	
+Maruti Swift 2014-2021 Maruti Swift VDI	Ambattur	Rs. 4.50 Lakh	
+Maruti Swift 2004-2010 Maruti Swift 1.3 VXi		Rs. 3.00 Lakh	
+Hyundai i10 Hyundai i10 Sportz	Thiruverkadu	Rs. 3.11 Lakh	
+Hyundai i10 Hyundai i10 Magna	Ambattur	Rs. 2.50 Lakh	
+Hyundai i10 Hyundai i10 Magna 1.1L	Thiruverkadu	Rs. 3.37 Lakh	
+Hyundai i10 Hyundai i10 Magna	Thiruverkadu	Rs. 2.80 Lakh	
+Hyundai i10 Hyundai i10 Sportz	Kilpauk	Rs. 3.65 Lakh	
+Hyundai i10 Hyundai i10 Asta	Ambattur	Rs. 2.70 Lakh	
+Hyundai i10 Hyundai i10 Sportz 1.1L	Nandanam	Rs. 3.10 Lakh	
+Hyundai i10 Hyundai i10 Magna	Ganapathipuram	Rs. 2.77 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2 AT	Anna Nagar	Rs. 2.75 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.2	Anna Nagar	Rs. 2.60 Lakh	
+Hyundai i10 Hyundai i10 Magna 1.1L	Thiruverkadu	Rs. 3.13 Lakh	
+Hyundai i10 Hyundai i10 Magna	Ambattur	Rs. 3.20 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Asta 1.2	MEENAMBAKKAM	Rs. 2.90 Lakh	
+Hyundai i10 Hyundai i10 Magna	Nungambakkam	Rs. 3.10 Lakh	
+Hyundai i10 Hyundai i10 Sportz	Anna Nagar	Rs. 2.85 Lakh	
+Hyundai i10 Hyundai i10 Asta	Meenambakkam	Rs. 2.70 Lakh	
+Hyundai i10 Hyundai i10 Magna 1.1L	Thiruverkadu	Rs. 3.03 Lakh	
+Hyundai i10 Hyundai i10 Magna	Thiruverkadu	Rs. 3.46 Lakh	
+Hyundai i10 Hyundai i10 Sportz	Ambattur	Rs. 2.90 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2		Rs. 2.35 Lakh	
+Hyundai i10 Hyundai i10 Magna	Thygaraya Nagar	Rs. 2.75 Lakh	
+Hyundai i10 Hyundai i10 Magna	Thygaraya Nagar	Rs. 2.88 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2		Rs. 2.10 Lakh	
+Hyundai i10 Hyundai i10 Magna	Meenambakkam	Rs. 1.70 Lakh	
+Hyundai i10 Hyundai i10 Sportz AT	Nungambakkam	Rs. 3.10 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna AT	Thygaraya Nagar	Rs. 3.15 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2		Rs. 2.80 Lakh	
+Hyundai i10 Hyundai i10 Asta		Rs. 2.20 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna AT		Rs. 2.50 Lakh	
+Hyundai i10 Hyundai i10 Sportz AT	Thygaraya Nagar	Rs. 2.75 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.2		Rs. 2.40 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna AT		Rs. 2.60 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.80 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2		Rs. 1.65 Lakh	
+Hyundai i10 Hyundai i10 Era		Rs. 2.40 Lakh	
+Hyundai i10 Hyundai i10 Era		Rs. 2.40 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.1	MEENAMBAKKAM	Rs. 3.40 Lakh	
+Hyundai i10 Hyundai i10 Magna	MEENAMBAKKAM	Rs. 2.70 Lakh	
+Hyundai i10 Hyundai i10 Era	MEENAMBAKKAM	Rs. 2.25 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2		Rs. 2.02 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.50 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2		Rs. 2.10 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.50 Lakh	
+Hyundai i10 Hyundai i10 Era		Rs. 2.00 Lakh	
+Hyundai i10 Hyundai i10 Sportz		Rs. 3.25 Lakh	
+Hyundai i10 Hyundai i10 Magna 1.2 iTech SE		Rs. 3.00 Lakh	
+Hyundai i10 Hyundai i10 Magna 1.1 iTech SE		Rs. 3.50 Lakh	
+Hyundai i10 Hyundai i10 Sportz		Rs. 2.10 Lakh	
+Hyundai i10 Hyundai i10 Era		Rs. 2.00 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.50 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2		Rs. 2.30 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.1		Rs. 1.80 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.1		Rs. 1.80 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.50 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.80 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 3.00 Lakh	
+Hyundai i10 Hyundai i10 Magna 1.1L		Rs. 3.00 Lakh	
+Hyundai i10 Hyundai i10 Era		Rs. 2.00 Lakh	
+Hyundai i10 Hyundai i10 Sportz 1.1L		Rs. 2.70 Lakh	
+Hyundai i10 Hyundai i10 Magna	Ambattur	Rs. 3.20 Lakh	
+Hyundai i10 Hyundai i10 Sportz 1.1L		Rs. 5.00 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.15 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.1		Rs. 1.00 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.90 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 3.00 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.40 Lakh	
+Hyundai i10 Hyundai i10 Sportz 1.1L LPG		Rs. 2.50 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.40 Lakh	
+Hyundai i10 Hyundai i10 Magna		Rs. 2.43 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.2		Rs. 1.80 Lakh	
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.1		Rs. 2.00 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing XL		Rs. 1.10 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing XL	Anna Nagar	Rs. 1.50 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing XO eRLX Euro II	MEENAMBAKKAM	Rs. 1.85 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing XL		Rs. 1.20 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing XO		Rs. 1.30 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing GLS		Rs. 2.00 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing GL		Rs. 3.00 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing XG eRLX Euro II		Rs. 1.30 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing GL		Rs. 1.00 Lakh	
+Hyundai Santro Xing Hyundai Santro Xing XL		Rs. 60,000	
+Hyundai Santro Xing Hyundai Santro Xing GLS LPG		Rs. 75,000	
+Hyundai Santro Xing Hyundai Santro Xing XL		Rs. 50,000	
+Honda City 4th Generation Honda City i-VTEC CVT ZX	Nungambakkam	Rs. 14.40 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Meenambakkam	Rs. 5.25 Lakh	
+Honda City 2015-2017 Honda City i VTEC SV	Anna Nagar West Extension	Rs. 5.65 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Thiruverkadu	Rs. 8.10 Lakh	
+Honda City 2015-2017 Honda City i VTEC VX	Nandanam	Rs. 6.85 Lakh	
+Honda City 2015-2017 Honda City i VTEC VX Option BL	Kilpauk	Rs. 6.95 Lakh	
+Honda City 2015-2017 Honda City i VTEC CVT VX	Thiruverkadu	Rs. 7.18 Lakh	
+Honda City 2014-2015 Honda City i DTEC V	Thiruverkadu	Rs. 6.19 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 6.00 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 5.55 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT VX	Nungambakkam	Rs. 7.50 Lakh	
+Honda City 4th Generation Honda City VX MT	Anna Nagar	Rs. 6.00 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Thiruverkadu	Rs. 5.73 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Thiruverkadu	Rs. 7.81 Lakh	
+Honda City 4th Generation Honda City i-VTEC VX	Anna Nagar	Rs. 10.25 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Thiruverkadu	Rs. 5.71 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Ganapathipuram	Rs. 5.78 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Thiruverkadu	Rs. 5.59 Lakh	
+Honda City 2014-2015 Honda City i VTEC V	Ambattur	Rs. 7.10 Lakh	
+Honda City 2011-2013 Honda City V MT	Thiruverkadu	Rs. 4.73 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Thiruverkadu	Rs. 7.29 Lakh	
+Honda City 2020-2023 Honda City ZX MT	Ganapathipuram	Rs. 12.94 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 5.80 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 6.90 Lakh	
+Honda City 2015-2017 Honda City i VTEC VX	Nungambakkam	Rs. 6.80 Lakh	
+Honda City 2020-2023 Honda City ZX CVT	Thiruverkadu	Rs. 12.08 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Nandanam	Rs. 6.35 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Kottivakkam	Rs. 6.35 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 8.50 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Meenambakkam	Rs. 6.90 Lakh	
+Honda City 4th Generation Honda City i-VTEC CVT ZX	Ganapathipuram	Rs. 7.69 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Anna Nagar	Rs. 7.00 Lakh	
+Honda City 4th Generation Honda City i-VTEC ZX	Medavakkam	Rs. 12.90 Lakh	
+Honda City 2015-2017 Honda City i VTEC CVT VX	Ganapathipuram	Rs. 8.26 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Thiruverkadu	Rs. 6.60 Lakh	
+Honda City 2020-2023 Honda City ZX MT	Thiruverkadu	Rs. 11.81 Lakh	
+Honda City 4th Generation Honda City i-VTEC CVT ZX	Ganapathipuram	Rs. 10.75 Lakh	
+Honda City 2014-2015 Honda City i VTEC VX	Kottivakkam	Rs. 5.95 Lakh	
+Honda City 2008-2011 Honda City 1.5 S MT	Anna Nagar	Rs. 6.10 Lakh	
+Honda City 4th Generation Honda City SV MT	Anna Nagar	Rs. 7.72 Lakh	
+Honda City 2015-2017 Honda City i VTEC SV	Ganapathipuram	Rs. 5.23 Lakh	
+Honda City 2015-2017 Honda City i VTEC CVT VX		Rs. 6.50 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	MEENAMBAKKAM	Rs. 6.90 Lakh	
+Honda City 4th Generation Honda City V MT	Thiruverkadu	Rs. 9.40 Lakh	
+Honda City 4th Generation Honda City i-VTEC CVT ZX	Nungambakkam	Rs. 13.60 Lakh	
+Honda City 2011-2013 Honda City V AT	Chromepet	Rs. 4.75 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Thiruverkadu	Rs. 7.43 Lakh	
+Honda City 4th Generation Honda City i-VTEC CVT ZX	Ganapathipuram	Rs. 10.88 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Thiruverkadu	Rs. 5.69 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT VX	Ganapathipuram	Rs. 6.46 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT	Thiruverkadu	Rs. 4.07 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Thiruverkadu	Rs. 5.46 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Thiruverkadu	Rs. 5.51 Lakh	
+Honda City 2020-2023 Honda City V MT	Thiruverkadu	Rs. 8.85 Lakh	
+Honda City 2015-2017 Honda City i VTEC SV	Thiruverkadu	Rs. 5.51 Lakh	
+Honda City 2015-2017 Honda City i VTEC S	Ganapathipuram	Rs. 5.41 Lakh	
+Honda City 4th Generation Honda City ZX CVT	Thiruverkadu	Rs. 10.88 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Ganapathipuram	Rs. 6.75 Lakh	
+Honda City 4th Generation Honda City i-DTEC ZX	Thiruverkadu	Rs. 8.17 Lakh	
+Honda City 2014-2015 Honda City i VTEC V	Thiruverkadu	Rs. 6.21 Lakh	
+Honda City 2020-2023 Honda City VX MT	Thiruverkadu	Rs. 9.82 Lakh	
+Honda City 2014-2015 Honda City i VTEC VX	Meenambakkam	Rs. 5.60 Lakh	
+Honda City 2014-2015 Honda City i VTEC V	Meenambakkam	Rs. 5.90 Lakh	
+Honda City 2015-2017 Honda City i VTEC CVT VX	Ganapathipuram	Rs. 7.36 Lakh	
+Honda City 4th Generation Honda City i-VTEC V	Kottivakkam	Rs. 6.96 Lakh	
+Honda City 2014-2015 Honda City i VTEC VX	Kottivakkam	Rs. 5.60 Lakh	
+Honda City 2014-2015 Honda City i DTEC V	Kottivakkam	Rs. 5.90 Lakh	
+Honda City 4th Generation Honda City i-VTEC S	Kolathur	Rs. 7.80 Lakh	
+Honda City 4th Generation Honda City Anniversary i-VTEC CVT ZX		Rs. 11.00 Lakh	
+Honda City 2020-2023 Honda City ZX CVT	Thygaraya Nagar	Rs. 13.25 Lakh	
+Honda City 2014-2015 Honda City i VTEC SV	Ganapathipuram	Rs. 5.30 Lakh	
+Honda City 4th Generation Honda City i-VTEC VX	Chromepet	Rs. 6.75 Lakh	
+Honda City 2000-2003 Honda City 1.5 EXI S		Rs. 2.50 Lakh	
+Honda City 2015-2017 Honda City i VTEC V	Ganapathipuram	Rs. 6.31 Lakh	
+Honda City 2003-2005 Honda City 1.5 GXI	Meenambakkam	Rs. 1.30 Lakh	
+Honda City 2014-2015 Honda City i VTEC SV		Rs. 5.90 Lakh	
+Honda City 2014-2015 Honda City V AT	Thiruverkadu	Rs. 3.96 Lakh	
+Honda City 2015-2017 Honda City i DTec VX		Rs. 8.75 Lakh	
+Honda City 4th Generation Honda City ZX MT		Rs. 12.30 Lakh	
+Honda City 4th Generation Honda City Anniversary i-VTEC CVT ZX		Rs. 9.80 Lakh	
+Honda City 2014-2015 Honda City i VTEC E		Rs. 6.05 Lakh	
+Honda City 2020-2023 Honda City V MT		Rs. 10.00 Lakh	
+Honda City 2015-2017 Honda City i DTec SV		Rs. 7.60 Lakh	
+Honda City 2015-2017 Honda City i VTEC E	Nandanam	Rs. 4.80 Lakh	
+Honda City Honda City V CVT	Thygaraya Nagar	Rs. 11.75 Lakh	
+Honda City 4th Generation Honda City VX MT	Thygaraya Nagar	Rs. 9.90 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT		Rs. 3.70 Lakh	
+Honda City 4th Generation Honda City VX MT	Anna Nagar West Extension	Rs. 8.70 Lakh	
+Honda City 2015-2017 Honda City i VTEC CVT SV		Rs. 5.99 Lakh	
+Honda City 2014-2015 Honda City i VTEC SV	Kottivakkam	Rs. 5.90 Lakh	
+Honda City 2020-2023 Honda City V CVT		Rs. 12.00 Lakh	
+Honda City 2014-2015 Honda City i VTEC SV	Meenambakkam	Rs. 5.90 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT VX	Ambattur	Rs. 7.35 Lakh	
+Honda City 2015-2017 Honda City i VTEC V		Rs. 7.00 Lakh	
+Honda City 4th Generation Honda City SV MT	Anna Nagar	Rs. 5.20 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 5.60 Lakh	
+Honda City 4th Generation Honda City VX MT	MEENAMBAKKAM	Rs. 5.70 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 9.80 Lakh	
+Honda City 4th Generation Honda City i-VTEC VX	Medavakkam	Rs. 8.30 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Anna Nagar	Rs. 9.00 Lakh	
+Honda City 2015-2017 Honda City i VTEC CVT SV	Anna Nagar	Rs. 5.65 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT SV	Anna Nagar	Rs. 7.00 Lakh	
+Honda City 2014-2015 Honda City i VTEC CVT VX	Anna Nagar	Rs. 6.80 Lakh	
+Honda City 4th Generation Honda City SV MT	MEENAMBAKKAM	Rs. 5.30 Lakh	
+Honda City 4th Generation Honda City VX MT	Porur	Rs. 8.00 Lakh	
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive	Porur	Rs. 7.50 Lakh	
+Honda City 4th Generation Honda City ZX MT	Porur	Rs. 9.75 Lakh	
+Toyota Innova 2004-2011 Toyota Innova 2.5 V Diesel 7-seater		Rs. 5.40 Lakh	
+Toyota Innova 2012-2013 Toyota Innova 2.5 G (Diesel) 7 Seater	Kolathur	Rs. 8.25 Lakh	
+Toyota Innova Toyota Innova 2.5 G (Diesel) 7 Seater	Kottivakkam	Rs. 11.75 Lakh	
+Toyota Innova Toyota Innova 2.5 VX (Diesel) 7 Seater BS IV		Rs. 12.69 Lakh	
+Toyota Innova 2009-2012 Toyota Innova 2.5 VX 7 STR		Rs. 11.15 Lakh	
+Toyota Innova 2004-2011 Toyota Innova 2.5 G (Diesel) 8 Seater BS III		Rs. 8.50 Lakh	
+Toyota Innova 2012-2013 Toyota Innova 2.5 G (Diesel) 8 Seater BS IV		Rs. 12.00 Lakh	
+Toyota Innova 2012-2013 Toyota Innova 2.5 G (Diesel) 8 Seater BS IV		Rs. 12.00 Lakh	
+Toyota Innova 2004-2011 Toyota Innova 2.5 G4 Diesel 8-seater		Rs. 7.00 Lakh	
+Toyota Innova Toyota Innova 2.5 G (Diesel) 8 Seater		Rs. 15.00 Lakh	
+Toyota Innova 2012-2013 Toyota Innova 2.5 G (Diesel) 8 Seater		Rs. 7.50 Lakh	
+Toyota Innova Toyota Innova 2.5 VX (Diesel) 8 Seater BS IV		Rs. 15.00 Lakh	
+Toyota Innova 2004-2011 Toyota Innova 2.5 E		Rs. 6.99 Lakh	
+Toyota Innova 2004-2011 Toyota Innova 2.5 G4 Diesel 8-seater		Rs. 6.50 Lakh	
+Toyota Fortuner 2016-2021 Toyota Fortuner TRD 4X4 AT	Nungambakkam	Rs. 31.90 Lakh	
+Toyota Fortuner 2016-2021 Toyota Fortuner 2.8 4WD AT	Kottivakkam	Rs. 31.00 Lakh	
+Toyota Fortuner 2011-2016 Toyota Fortuner 4x2 AT TRD Sportivo	Porur	Rs. 29.49 Lakh	
+Toyota Fortuner 2009-2011 Toyota Fortuner 3.0 Diesel	Nungambakkam	Rs. 10.75 Lakh	
+Toyota Fortuner Toyota Fortuner 4X4 Diesel	Thygaraya Nagar	Rs. 38.00 Lakh	
+Toyota Fortuner Toyota Fortuner 4X2 Diesel BSVI		Rs. 37.00 Lakh	
+Toyota Fortuner Toyota Fortuner 4X2 Diesel AT		Rs. 41.00 Lakh	
+Mahindra XUV500 Mahindra XUV500 AT W9 2WD	Anna Nagar	Rs. 13.85 Lakh	
+Mahindra XUV500 Mahindra XUV500 W9 1.99	Ashoknagar	Rs. 17.50 Lakh	
+Mahindra XUV500 Mahindra XUV500 W7	Ganapathipuram	Rs. 12.29 Lakh	
+Mahindra XUV500 2011-2015 Mahindra XUV500 W6 2WD		Rs. 6.80 Lakh	
+Mahindra XUV500 Mahindra XUV500 W11 Option AT BSIV	Ganapathipuram	Rs. 15.45 Lakh	
+Mahindra XUV500 2011-2015 Mahindra XUV500 W6 2WD		Rs. 5.65 Lakh	
+Mahindra XUV500 2011-2015 Mahindra XUV500 W4		Rs. 8.75 Lakh	
+Mahindra XUV500 Mahindra XUV500 W4		Rs. 6.30 Lakh	
+Mahindra XUV500 2011-2015 Mahindra XUV500 W6 2WD	Porur	Rs. 7.95 Lakh	
+Mahindra XUV500 2011-2015 Mahindra XUV500 W8 2WD		Rs. 8.50 Lakh	
+Mahindra XUV500 Mahindra XUV500 W9	Thiruverkadu	Rs. 16.35 Lakh	
+Mahindra XUV500 Mahindra XUV500 W4 1.99 mHawk		Rs. 5.75 Lakh	
+Mahindra XUV500 Mahindra XUV500 W7 AT	Thygaraya Nagar	Rs. 14.50 Lakh	
+Mahindra XUV500 Mahindra XUV500 AT W6 2WD	Thygaraya Nagar	Rs. 14.50 Lakh	
+Mahindra XUV500 Mahindra XUV500 W6 2WD		Rs. 9.50 Lakh	
+Mahindra XUV500 Mahindra XUV500 W11 Option BSIV		Rs. 18.00 Lakh	
+Mahindra XUV500 Mahindra XUV500 W10 AWD		Rs. 9.50 Lakh	
+Mahindra XUV500 2011-2015 Mahindra XUV500 W8 FWD		Rs. 8.00 Lakh	
+Mahindra XUV500 Mahindra XUV500 W6 2WD		Rs. 9.50 Lakh	
+Mahindra XUV500 Mahindra XUV500 W5 BSIV		Rs. 11.00 Lakh	
+--Filters Added--
+  And On the Zig Wheels website, the user clicks on each and every modelName under the filters. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.on_the_zig_wheels_website_the_user_clicks_on_each_and_every_model_name_under_the_filters()
+
+    Embedding For Used cars in Chennai, extract all the popular models in a List; Display the same [image/png 194830 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:20:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:20:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Try to &apos;Login&apos; with google, give invalid account details &amp; capture the error message&quot;, &quot;Identify New Bike E2E testing suite in the zig wheels website&quot;](3)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="28.706">
+    <system-out><![CDATA[
+@tag
+Scenario: Try to 'Login' with google, give invalid account details & capture the error message                                    # src/test/resources/Features/Identify_NewBikes_E2E.feature:25
+--Clicked On Login\/Signup Button--
+  Given User clicks the Zig Wheels website login/signup button.                                                                   # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_clicks_the_zig_wheels_website_s_login_signup_button()
+
+    Embedding Try to 'Login' with google, give invalid account details & capture the error message [image/png 622565 bytes]
+
+--Clicked On Google--
+  And The user choose a Google login option.                                                                                      # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_choose_a_google_login_option()
+
+    Embedding Try to 'Login' with google, give invalid account details & capture the error message [image/png 41855 bytes]
+
+
+--Error Message Captured--
+  Then User sends an incorrect email using their "vggdxcggmail.com" address, then checks to see whether an error message appears. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_sends_an_incorrect_email_using_their_address_then_checks_to_see_whether_an_error_message_appears(java.lang.String)
+
+    Embedding Try to 'Login' with google, give invalid account details & capture the error message [image/png 51004 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:30:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:30:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Display &quot;Upcoming&quot; bikes details like bike name, price and expected launch date in India, for manufacturer &apos;Honda&apos; &amp; Bike price should be less than 4Lac.&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](4)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="32.104">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario: Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.   # src/test/resources/Features/Identify_NewBikes_Regression.feature:5
+  Given user navigates to zig wheels website with url                                                                                                                 # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 1135536 bytes]
+
+--Hover on new bikes option--
+  When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products.                                               # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 985535 bytes]
+
+--UpComing Bikes Option Selected--
+  Then From the new bikes area, the user selects the upcoming bikes option.                                                                                           # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_new_bikes_area_the_user_selects_the_upcoming_bikes_option()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 233655 bytes]
+
+--Manfacturer Name Selected--
+  And After receiving the result, the user selects Honda as the manufacturer name from the menu.                                                                      # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.after_receiving_the_result_the_user_selects_honda_as_the_manufacturer_name_from_the_menu()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 295902 bytes]
+
+Honda Activa Electric	Rs. 1.10 Lakh	Launch Date : Mar 2024	
+Honda Forza 350	Rs. 3.70 Lakh	Launch Date : Mar 2024	
+Honda CB350 Cruiser	Rs. 2.30 Lakh	Launch Date : Mar 2024	
+Honda Activa 7G	Rs. 79,000	Launch Date : Apr 2024	
+Honda PCX160	Rs. 1.20 Lakh	Launch Date : Jun 2024	
+Honda CBR150R	Rs. 1.70 Lakh	Launch Date : Unrevealed	
+--Data inserted Successfully--
+  And record the name, cost, and anticipated release date of each bike for the Indian market for the manufacturer Honda & A bike should cost no more than four lakhs. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.record_the_name_cost_and_anticipated_release_date_of_each_bike_for_the_indian_market_for_the_manufacturer_honda_a_bike_should_cost_no_more_than_four_lakhs()
+
+    Embedding Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac. [image/png 1136063 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:30:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:30:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verifying the forums in the zig wheels website&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](5)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="33.089">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario: Verifying the forums in the zig wheels website                       # src/test/resources/Features/Identify_NewBikes_Regression.feature:14
+--Clicked On Forum--
+  Given user navigate to forums tab in the zig wheels website                  # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigate_to_forums_tab_in_the_zig_wheels_website()
+
+    Embedding Verifying the forums in the zig wheels website [image/png 213663 bytes]
+
+--Selected Vehicle Type
+  When On the zig wheels website, the user selects the type of vehicle         # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.on_the_zig_wheels_website_the_user_selects_the_type_of_vehicle()
+
+    Embedding Verifying the forums in the zig wheels website [image/png 217137 bytes]
+
+--Selected Brand--
+  And The user selects a brand from the zig wheels web site                    # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_a_brand_from_the_zig_wheels_web_site()
+
+    Embedding Verifying the forums in the zig wheels website [image/png 229013 bytes]
+
+--Selected Model--
+  And The user selects a model from the zig wheels web site based on the brand # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_a_model_from_the_zig_wheels_web_site_based_on_the_brand()
+
+    Embedding Verifying the forums in the zig wheels website [image/png 226101 bytes]
+
+Mercedes-Benz C-Class Community
+Share
+User Clicked on Search Button
+  Then The user clicks on search button and validate the results               # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_clicks_on_search_button_and_validate_the_results()
+
+    Embedding Verifying the forums in the zig wheels website [image/png 226975 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:31:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:31:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](6)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="24.046">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:28
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 1003175 bytes]
+
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Delhi".                      # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 751370 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:32:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:32:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](7)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="23.623">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:29
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 1029575 bytes]
+
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Mumbai".                     # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 751370 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:32:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:32:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](8)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="22.725">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:30
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 972199 bytes]
+
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Banglore".                   # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 758449 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:32:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:32:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](9)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="22.366">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:31
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 1136292 bytes]
+
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Chennai".                    # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 1119368 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:33:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:33:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](10)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="27.328">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:32
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 1028764 bytes]
+
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Hyderabad".                  # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 375196 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:33:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:33:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](11)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="29.542">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:33
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 845753 bytes]
+
+Used Cars in Kolkata
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Kolkata".                    # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 706301 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:34:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:34:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](12)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="26.473">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:34
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 1060352 bytes]
+
+Used Cars in Ahmedabad
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Ahmedabad".                  # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 382841 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:34:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:34:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](13)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="22.909">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:35
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 1025650 bytes]
+
+Used Cars in Jaipur
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Jaipur".                     # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 631537 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:34:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:34:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes and cars Regression TestSuite&quot;](14)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="23.289">
+    <system-out><![CDATA[
+@tag @Regression
+Scenario Outline: Hovering on used cars                                            # src/test/resources/Features/Identify_NewBikes_Regression.feature:36
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 962060 bytes]
+
+Used Cars in Pune
+--Clicked on Used Cars--
+  Then the user selects the options for used cars in "Pune".                       # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_the_options_for_used_cars_in(java.lang.String)
+
+    Embedding Hovering on used cars [image/png 334095 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:35:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:35:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering mouse on the new Bikes dropdown&quot;, &quot;Identify New Bikes Smoke TestSuite&quot;](15)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="19.236">
+    <system-out><![CDATA[
+@smoke
+Scenario: Hovering mouse on the new Bikes dropdown                                                                      # src/test/resources/Features/Identify_NewBikes_Smoke.feature:4
+  Given user navigates to zig wheels website with url                                                                   # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()
+
+    Embedding Hovering mouse on the new Bikes dropdown [image/png 1135553 bytes]
+
+--Hover on new bikes option--
+  When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()
+
+    Embedding Hovering mouse on the new Bikes dropdown [image/png 969094 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:35:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:35:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Selecting the &quot;upcoming&quot; options from new bikes drop down&quot;, &quot;Identify New Bikes Smoke TestSuite&quot;](16)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="24.251">
+    <system-out><![CDATA[
+@smoke
+Scenario: Selecting the "upcoming" options from new bikes drop down                                                     # src/test/resources/Features/Identify_NewBikes_Smoke.feature:9
+  Given user navigates to zig wheels website with url                                                                   # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()
+
+    Embedding Selecting the "upcoming" options from new bikes drop down [image/png 1135536 bytes]
+
+--Hover on new bikes option--
+  When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()
+
+    Embedding Selecting the "upcoming" options from new bikes drop down [image/png 944555 bytes]
+
+--UpComing Bikes Option Selected--
+  Then From the new bikes area, the user selects the upcoming bikes option.                                             # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_new_bikes_area_the_user_selects_the_upcoming_bikes_option()
+
+    Embedding Selecting the "upcoming" options from new bikes drop down [image/png 233655 bytes]
+
+--Manfacturer Name Selected--
+  And After receiving the result, the user selects Honda as the manufacturer name from the menu.                        # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.after_receiving_the_result_the_user_selects_honda_as_the_manufacturer_name_from_the_menu()
+
+    Embedding Selecting the "upcoming" options from new bikes drop down [image/png 295902 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:36:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:36:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Hovering on used cars&quot;, &quot;Identify New Bikes Smoke TestSuite&quot;](17)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="20.934">
+    <system-out><![CDATA[
+@smoke
+Scenario: Hovering on used cars                                                               # src/test/resources/Features/Identify_NewBikes_Smoke.feature:16
+--Hovered on Used Cars--
+  Given user moves the mouse pointer over the Zig Wheels website new cars section.            # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()
+
+    Embedding Hovering on used cars [image/png 970383 bytes]
+
+--Clicked on Used Cars--
+  Then From the website new cars area, the user selects the options for used cars in Chennai. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_website_new_cars_area_the_user_selects_the_options_for_used_cars_in_chennai()
+
+    Embedding Hovering on used cars [image/png 398642 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:36:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:36:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Try to &apos;Login&apos; with google, give invalid account details &amp; capture the error message&quot;, &quot;Identify New Bikes Smoke TestSuite&quot;](18)" classname="com.Identify_NewBikes.StepRunner.TestRunner" time="29.132">
+    <system-out><![CDATA[
+@smoke
+Scenario: Try to 'Login' with google, give invalid account details & capture the error message                                    # src/test/resources/Features/Identify_NewBikes_Smoke.feature:28
+--Clicked On Login\/Signup Button--
+  Given User clicks the Zig Wheels website login/signup button.                                                                   # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_clicks_the_zig_wheels_website_s_login_signup_button()
+
+    Embedding Try to 'Login' with google, give invalid account details & capture the error message [image/png 613194 bytes]
+
+--Clicked On Google--
+  And The user choose a Google login option.                                                                                      # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_choose_a_google_login_option()
+
+    Embedding Try to 'Login' with google, give invalid account details & capture the error message [image/png 41855 bytes]
+
+
+--Error Message Captured--
+  Then User sends an incorrect email using their "vggdxcggmail.com" address, then checks to see whether an error message appears. # com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_sends_an_incorrect_email_using_their_address_then_checks_to_see_whether_an_error_message_appears(java.lang.String)
+
+    Embedding Try to 'Login' with google, give invalid account details & capture the error message [image/png 51011 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 10:36:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Feb 27, 2024 10:36:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 118.0.5993.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

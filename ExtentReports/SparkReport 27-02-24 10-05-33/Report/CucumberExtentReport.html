@@ -1,0 +1,1807 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 27, 2024 10:05:33 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@tag</a><a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@Regression</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Identify New Bike E2E testing suite in the zig wheels website</p>
+            <p class="text-sm">
+              <span>10:05:36 AM</span> / <span>00:13:55:291</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Identify New Bike E2E testing suite in the zig wheels website</h5>
+<span class='badge badge-success'>02.27.2024 10:05:36 AM</span>
+<span class='badge badge-danger'>02.27.2024 10:19:32 AM</span>
+<span class='badge badge-default'>00:13:55:291</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()">
+                <span>Given user navigates to zig wheels website with url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()">
+                <span>When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_new_bikes_area_the_user_selects_the_upcoming_bikes_option()">
+                <span>Then From the new bikes area, the user selects the upcoming bikes option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.after_receiving_the_result_the_user_selects_honda_as_the_manufacturer_name_from_the_menu()">
+                <span>And After receiving the result, the user selects Honda as the manufacturer name from the menu.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.record_the_name_cost_and_anticipated_release_date_of_each_bike_for_the_indian_market_for_the_manufacturer_honda_a_bike_should_cost_no_more_than_four_lakhs()">
+                <span>And record the name, cost, and anticipated release date of each bike for the Indian market for the manufacturer Honda & A bike should cost no more than four lakhs.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>For Used cars in Chennai, extract all the popular models in a List; Display the same</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()">
+                <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>For Used cars in Chennai, extract all the popular models in a List; Display the same
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_website_new_cars_area_the_user_selects_the_options_for_used_cars_in_chennai()">
+                <span>Then From the website new cars area, the user selects the options for used cars in Chennai.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>For Used cars in Chennai, extract all the popular models in a List; Display the same
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.on_the_zig_wheels_website_the_user_clicks_on_each_and_every_model_name_under_the_filters()">
+                <span>And On the Zig Wheels website, the user clicks on each and every modelName under the filters.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>For Used cars in Chennai, extract all the popular models in a List; Display the same
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded8.png' src="../Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Try to 'Login' with google, give invalid account details & capture the error message</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Try to 'Login' with google, give invalid account details & capture the error message</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User clicks the Zig Wheels website login/signup button.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Try to 'Login' with google, give invalid account details & capture the error message
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded9.png' src="../Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user choose a Google login option.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Try to 'Login' with google, give invalid account details & capture the error message
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded10.png' src="../Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User sends an incorrect email using their "vggdxcggmail.com" address, then checks to see whether an error message appears.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Try to 'Login' with google, give invalid account details & capture the error message
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded11.png' src="../Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Identify New Bikes and cars Regression TestSuite</p>
+            <p class="text-sm">
+              <span>10:19:32 AM</span> / <span>00:09:19:547</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Identify New Bikes and cars Regression TestSuite</h5>
+<span class='badge badge-success'>02.27.2024 10:19:32 AM</span>
+<span class='badge badge-danger'>02.27.2024 10:28:51 AM</span>
+<span class='badge badge-default'>00:09:19:547</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log pass-bg mr-2">Pass</span>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()">
+                <span>Given user navigates to zig wheels website with url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded12.png' src="../Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()">
+                <span>When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded13.png' src="../Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_new_bikes_area_the_user_selects_the_upcoming_bikes_option()">
+                <span>Then From the new bikes area, the user selects the upcoming bikes option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded14.png' src="../Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.after_receiving_the_result_the_user_selects_honda_as_the_manufacturer_name_from_the_menu()">
+                <span>And After receiving the result, the user selects Honda as the manufacturer name from the menu.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded15.png' src="../Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.record_the_name_cost_and_anticipated_release_date_of_each_bike_for_the_indian_market_for_the_manufacturer_honda_a_bike_should_cost_no_more_than_four_lakhs()">
+                <span>And record the name, cost, and anticipated release date of each bike for the Indian market for the manufacturer Honda & A bike should cost no more than four lakhs.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded16.png' src="../Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>Verifying the forums in the zig wheels website</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigate_to_forums_tab_in_the_zig_wheels_website()">
+                <span>Given user navigate to forums tab in the zig wheels website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Verifying the forums in the zig wheels website
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded17.png' src="../Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.on_the_zig_wheels_website_the_user_selects_the_type_of_vehicle()">
+                <span>When On the zig wheels website, the user selects the type of vehicle</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Verifying the forums in the zig wheels website
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded18.png' src="../Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_a_brand_from_the_zig_wheels_web_site()">
+                <span>And The user selects a brand from the zig wheels web site</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Verifying the forums in the zig wheels website
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded19.png' src="../Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_selects_a_model_from_the_zig_wheels_web_site_based_on_the_brand()">
+                <span>And The user selects a model from the zig wheels web site based on the brand</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Verifying the forums in the zig wheels website
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded20.png' src="../Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.the_user_clicks_on_search_button_and_validate_the_results()">
+                <span>Then The user clicks on search button and validate the results</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Verifying the forums in the zig wheels website
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded21.png' src="../Screenshots/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="61"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="62"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded22.png' src="../Screenshots/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Delhi".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded23.png' src="../Screenshots/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="69"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded24.png' src="../Screenshots/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Mumbai".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded25.png' src="../Screenshots/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="76"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded26.png' src="../Screenshots/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Banglore".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded27.png' src="../Screenshots/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="83"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded28.png' src="../Screenshots/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Chennai".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded29.png' src="../Screenshots/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="90"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded30.png' src="../Screenshots/embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Hyderabad".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded31.png' src="../Screenshots/embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="97"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded32.png' src="../Screenshots/embedded32.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Kolkata".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded33.png' src="../Screenshots/embedded33.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="104"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded34.png' src="../Screenshots/embedded34.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Ahmedabad".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded35.png' src="../Screenshots/embedded35.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="111"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded36.png' src="../Screenshots/embedded36.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Jaipur".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded37.png' src="../Screenshots/embedded37.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="118"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded38.png' src="../Screenshots/embedded38.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects the options for used cars in "Pune".</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded39.png' src="../Screenshots/embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="125"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Identify New Bikes Smoke TestSuite</p>
+            <p class="text-sm">
+              <span>10:28:51 AM</span> / <span>00:03:29:303</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Identify New Bikes Smoke TestSuite</h5>
+<span class='badge badge-success'>02.27.2024 10:28:51 AM</span>
+<span class='badge badge-danger'>02.27.2024 10:32:21 AM</span>
+<span class='badge badge-default'>00:03:29:303</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=125</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="126"><span class="badge log pass-bg mr-2">Pass</span>Hovering mouse on the new Bikes dropdown</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()">
+                <span>Given user navigates to zig wheels website with url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering mouse on the new Bikes dropdown
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded40.png' src="../Screenshots/embedded40.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()">
+                <span>When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering mouse on the new Bikes dropdown
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded41.png' src="../Screenshots/embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="133"><span class="badge log pass-bg mr-2">Pass</span>Selecting the "upcoming" options from new bikes drop down</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_navigates_to_zig_wheels_website_with_url()">
+                <span>Given user navigates to zig wheels website with url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Selecting the "upcoming" options from new bikes drop down
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded42.png' src="../Screenshots/embedded42.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.upon_hovering_their_mouse_over_the_new_bikes_the_user_will_be_able_to_view_more_details_regarding_the_products()">
+                <span>When Upon hovering their mouse over the new bikes, the user will be able to view more details regarding the products.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Selecting the "upcoming" options from new bikes drop down
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded43.png' src="../Screenshots/embedded43.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_new_bikes_area_the_user_selects_the_upcoming_bikes_option()">
+                <span>Then From the new bikes area, the user selects the upcoming bikes option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Selecting the "upcoming" options from new bikes drop down
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded44.png' src="../Screenshots/embedded44.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.after_receiving_the_result_the_user_selects_honda_as_the_manufacturer_name_from_the_menu()">
+                <span>And After receiving the result, the user selects Honda as the manufacturer name from the menu.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Selecting the "upcoming" options from new bikes drop down
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded45.png' src="../Screenshots/embedded45.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="144"><span class="badge log pass-bg mr-2">Pass</span>Hovering on used cars</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.user_moves_the_mouse_pointer_over_the_zig_wheels_website_new_cars_section()">
+                <span>Given user moves the mouse pointer over the Zig Wheels website new cars section.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded46.png' src="../Screenshots/embedded46.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Identify_NewBikes.StepDefinitions.NewBikesAndCars.from_the_website_new_cars_area_the_user_selects_the_options_for_used_cars_in_chennai()">
+                <span>Then From the website new cars area, the user selects the options for used cars in Chennai.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Hovering on used cars
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded47.png' src="../Screenshots/embedded47.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="151"><span class="badge log pass-bg mr-2">Pass</span>Try to 'Login' with google, give invalid account details & capture the error message</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="152"><span class="badge log pass-bg mr-2">Pass</span>Try to 'Login' with google, give invalid account details & capture the error message</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User clicks the Zig Wheels website login/signup button.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Try to 'Login' with google, give invalid account details & capture the error message
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded48.png' src="../Screenshots/embedded48.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user choose a Google login option.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Try to 'Login' with google, give invalid account details & capture the error message
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded49.png' src="../Screenshots/embedded49.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User sends an incorrect email using their "vggdxcggmail.com" address, then checks to see whether an error message appears.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.Identify_NewBikes.StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Try to 'Login' with google, give invalid account details & capture the error message
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded50.png' src="../Screenshots/embedded50.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>14</span>
+</span>
+<p class="name">@tag</p>
+<p class="duration text-sm">14 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag</h4>
+<span status="pass" class='badge log pass-bg'>14 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:05:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</a>
+<div class="">
+<span class="badge badge-default">Identify New Bike E2E testing suite in the zig wheels website.Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:06:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>For Used cars in Chennai, extract all the popular models in a List; Display the same</a>
+<div class="">
+<span class="badge badge-default">Identify New Bike E2E testing suite in the zig wheels website.For Used cars in Chennai, extract all the popular models in a List; Display the same</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:18:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>Try to 'Login' with google, give invalid account details & capture the error message</a>
+<div class="">
+<span class="badge badge-default">Identify New Bike E2E testing suite in the zig wheels website.Try to 'Login' with google, give invalid account details & capture the error message</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:19:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='35'>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:21:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='48'>Verifying the forums in the zig wheels website</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Verifying the forums in the zig wheels website</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:22:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='62'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:23:07 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='69'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:23:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='76'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:24:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='83'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:24:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='90'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:25:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='97'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:26:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='104'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:27:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='111'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:28:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='118'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:28:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='125' id='126'>Hovering mouse on the new Bikes dropdown</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes Smoke TestSuite.Hovering mouse on the new Bikes dropdown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:29:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='125' id='133'>Selecting the "upcoming" options from new bikes drop down</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes Smoke TestSuite.Selecting the "upcoming" options from new bikes drop down</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:30:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='125' id='144'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes Smoke TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:31:06 AM</td>
+<td>
+<a href="#" class="linked" test-id='125' id='152'>Try to 'Login' with google, give invalid account details & capture the error message</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes Smoke TestSuite.Try to 'Login' with google, give invalid account details & capture the error message</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>11</span>
+</span>
+<p class="name">@Regression</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Regression</h4>
+<span status="pass" class='badge log pass-bg'>11 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:19:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='35'>Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Display "Upcoming" bikes details like bike name, price and expected launch date in India, for manufacturer 'Honda' & Bike price should be less than 4Lac.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:21:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='48'>Verifying the forums in the zig wheels website</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Verifying the forums in the zig wheels website</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:22:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='62'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:23:07 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='69'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:23:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='76'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:24:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='83'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:24:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='90'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:25:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='97'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:26:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='104'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:27:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='111'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:28:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='118'>Hovering on used cars</a>
+<div class="">
+<span class="badge badge-default">Identify New Bikes and cars Regression TestSuite.Hovering on used cars</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 27, 2024 10:05:33 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 27, 2024 10:32:21 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>3</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>18</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>100</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Identify New Bike E2E testing suite in the zig wheels website":835.291,"Identify New Bikes and cars Regression TestSuite":559.547,"Identify New Bikes Smoke TestSuite":209.303
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@tag</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@smoke</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Regression</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 18,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 100,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
